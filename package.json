@@ -1,0 +1,17 @@
+{
+  "name": "twitter-retweets-delete-inbulk",
+  "version": "1.0.0",
+  "description": "Login to twitter and delete all you retweets from your profile. It is written in Node.js ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Muhammad Asfar (@asfaralvi)",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^13.0.1",
+    "puppeteer-core": "^13.0.1"
+  }
+}
