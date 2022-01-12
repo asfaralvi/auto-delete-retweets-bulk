@@ -29,9 +29,9 @@ let login_url="https://twitter.com/i/flow/login";
         }
            
         await page.goto(login_url);
-        await sleep(20000);
+        await sleep(30000);
 
-
+        await browser.close();
     } 
     catch (err) 
     {
